@@ -9,7 +9,7 @@ def line(array)
    array.each_with_index do |value, index| 
    message += " #{index +1. #{value}"
   end 
-  puts message 
+  puts "#{message}"
 end 
 
 
