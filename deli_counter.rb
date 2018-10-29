@@ -5,8 +5,8 @@ def line(array)
  if array.length == 0 
     "The line is currently empty."
   else 
-    "The line is currently: "
-    message = 
+   message = "The line is currently: "
+   
   end 
 end 
 
