@@ -6,10 +6,10 @@ def line(array)
     "The line is currently empty."
   else 
     "The line is currently: "
-end 
+  end 
 end 
 
-def take_a_number(array, name)
+def take_a_number(array)
   name.each_with_index {|name, index| "Welcome, #{name}. You are number #{index + 1} in line."
 end 
 
