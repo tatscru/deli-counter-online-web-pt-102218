@@ -7,7 +7,7 @@ def line(array)
   else 
    message = "The line is currently: "
    array.each_with_index do |value, index| 
-  message + "#{index +1. #{value}"#{index +1. #{"
+  message + "#{index +1. #{value}"
   end 
   message 
 end 
