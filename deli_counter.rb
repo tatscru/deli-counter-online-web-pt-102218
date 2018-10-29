@@ -6,7 +6,7 @@ def line(array)
     "The line is currently empty."
   else 
     "The line is currently: "
-    
+    message = 
   end 
 end 
 
