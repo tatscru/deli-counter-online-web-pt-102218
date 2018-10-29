@@ -5,6 +5,7 @@ def line(array)
  if array.length = 0 
     "The line is currently empty."
 end 
+end 
 
 # def take_a_number(katz_deli, name)
 #   name.each {|name, katz_deli| "Welcome, #{name}. You are number #{katz_deli} in line"
