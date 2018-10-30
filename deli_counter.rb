@@ -6,6 +6,7 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
+    message = "The line is currently: "
     array.each_with_index(1)  do |name, index|
       line_array.push("#{index}. #{name}")
     end
@@ -34,18 +35,6 @@ def now_serving(array)
 end 
 
 
-# def line(array)
-# if array.length == 0 
-#     "The line is currently empty."
-#   else 
-#   message = "The line is currently: "
-#   array.each_with_index do |value, index| 
-#   message += " {#index +1}. {#value}"
-#   end 
-#   puts "#{message}"
-# end 
-# end 
-
 # def line(array) 
 #   if array.length == 0 
 #     puts "The line is currently empty."
@@ -60,10 +49,6 @@ end
 # end 
 
 
-
-# def take_a_number(array)
-#   name.each_with_index {|name, index| "Welcome, #{name}. You are number #{index + 1} in line."
-# end 
 
 
 
