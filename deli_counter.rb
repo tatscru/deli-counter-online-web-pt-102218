@@ -10,7 +10,7 @@ def line(array)
     array.each_with_index  do |name, index|
     message += " #{index.to_i+1}. #{name}"
     end
-    
+    "#{message}"
   end
 end
 
