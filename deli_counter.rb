@@ -4,7 +4,7 @@ katz_deli = []
 def take_a_number(array, name)
   array.push(name)
   position_in_line = array.each_with_index
-  puts "Welcome, #{name}. You are number #{array.each_with_index)+1} in line."
+  puts "Welcome, #{name}. You are number #{array.each_with_index+1} in line."
   return name, position 
 end 
 
