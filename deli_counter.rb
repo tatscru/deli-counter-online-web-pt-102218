@@ -8,14 +8,14 @@ katz_deli = []
 #   return name, position_in_line 
 # end 
 
-def take_a_number(katz_deli, name)
-  katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
+def take_a_number(array, name)
+  array.push(name)
+  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
 end
 
 
-def now_serving(katz_deli)
-  if katz_deli = 0 
+def now_serving(array)
+  if array = 0 
     puts "Currently serving #{name}"
   else 
     puts "There is nobody waiting to be served!"
