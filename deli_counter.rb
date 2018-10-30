@@ -15,7 +15,7 @@ end
 
 
 def now_serving(katz_deli)
-  puts 
+  puts "Currently serving #{name}"
 end 
 
 # def line(array)
