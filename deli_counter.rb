@@ -13,6 +13,9 @@ def line(array)
 end 
 
 
+
+
+
 # def take_a_number(array)
 #   name.each_with_index {|name, index| "Welcome, #{name}. You are number #{index + 1} in line."
 # end 
